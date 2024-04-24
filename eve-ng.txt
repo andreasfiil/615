@@ -1,0 +1,11 @@
+##Reset eve-ng startup script:
+
+rm -f opt/ovf/.configured
+SU -
+
+##se og rediger netconf
+
+cat /etc/network/interfaces
+nano /etc/network/interfaces
+
+
